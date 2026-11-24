@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أسامه العولقي | معرض أعمالي</title>
+  <meta name="description" content="معرض أعمال أسامه العولقي: الشعر، فن الخط العربي، وتصميم شعار شاورما العتيق.">
+  <meta name="theme-color" content="#1f5a7a">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#home" aria-label="الصفحة الرئيسية">
+        <span class="brand__mark" aria-hidden="true">ع</span>
+        <span class="brand__text">أسامه العولقي</span>
+      </a>
+
+      <nav class="site-nav" aria-label="القائمة الرئيسية">
+        <a href="#home" class="site-nav__link is-active">الرئيسية</a>
+        <a href="#works" class="site-nav__link">أعمالي</a>
+        <a href="#contact" class="site-nav__link">تواصل معي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- قسم الترحيب -->
+    <section id="home" class="hero">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">مرحباً بكم في زاويتي الإبداعية</p>
+          <h1 class="hero__title">أسامه العولقي</h1>
+          <p class="hero__lead">
+            أصوغ الكلمة شعراً، وأُجمل الحرف خطاً، وأصنع شعاراً يحكي حكاية.
+            خُذ جولة بين أعمالي واكتشف ما أبدعته يداي وقلمي.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#works">تصفّح أعمالي</a>
+            <a class="btn btn--outline" href="#contact">تواصل معي</a>
+          </div>
+        </div>
+
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="hero__frame">
+            <span class="hero__stroke hero__stroke--top"></span>
+            <span class="hero__word">إبداع</span>
+            <span class="hero__caption">كلمة · حرف · تصميم</span>
+            <span class="hero__stroke hero__stroke--bottom"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم بطاقات الأعمال -->
+    <section id="works" class="works">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">معرض الأعمال</p>
+          <h2 class="section-head__title">ثلاثة مشاريع، ثلاث حكايات</h2>
+          <p class="section-head__desc">كل مشروع هنا قطعة من شغفي بالكلمة العربية والهوية البصرية.</p>
+        </header>
+
+        <div class="cards">
+          <!-- البطاقة الأولى: الشعر -->
+          <article class="card reveal">
+            <div class="card__visual card__visual--poetry" aria-hidden="true">
+              <span class="card__quote">❝</span>
+              <span class="card__visual-title">شعر</span>
+              <span class="card__visual-lines"><i></i><i></i><i></i></span>
+            </div>
+            <div class="card__body">
+              <span class="card__tag">كلمة ومعنى</span>
+              <h3 class="card__title">الشعر</h3>
+              <p class="card__text">
+                قصائد ومقطوعات كتبتها من القلب، تحاول أن تتراجم المشاعر إلى صورٍ
+                تبقى في الذاكرة وتُقرأ أكثر من مرة.
+              </p>
+            </div>
+          </article>
+
+          <!-- البطاقة الثانية: الخط -->
+          <article class="card reveal">
+            <div class="card__visual card__visual--calligraphy" aria-hidden="true">
+              <span class="card__ink"></span>
+              <span class="card__visual-title card__visual-title--gold">خط عربي</span>
+              <span class="card__visual-lines"><i></i><i></i><i></i></span>
+            </div>
+            <div class="card__body">
+              <span class="card__tag">حرف وفن</span>
+              <h3 class="card__title">الخط</h3>
+              <p class="card__text">
+                تشكيل الحروف العربية بلمسة فنية تجمع بين الأصالة والروح العصرية،
+                من العبارات القصيرة إلى اللوحات الكاملة.
+              </p>
+            </div>
+          </article>
+
+          <!-- البطاقة الثالثة: لوجو شاورما العتيق -->
+          <article class="card reveal">
+            <div class="card__visual card__visual--logo" aria-hidden="true">
+              <div class="logo-badge">
+                <span class="logo-badge__small">مطعم</span>
+                <span class="logo-badge__name">شاورما</span>
+                <span class="logo-badge__name logo-badge__name--accent">العتيق</span>
+                <span class="logo-badge__line"></span>
+                <span class="logo-badge__latin" dir="ltr">AL-ATEeq</span>
+              </div>
+            </div>
+            <div class="card__body">
+              <span class="card__tag">هوية بصرية</span>
+              <h3 class="card__title">لوجو شاورما العتيق</h3>
+              <p class="card__text">
+                تصميم شعار لمطعم شاورما يجمع بين الطابع التراثي والوضوح الحديث،
+                مع ألوان وأحرف تعبّر عن النكهة والأصالة.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <p class="contact__eyebrow">تواصل معي</p>
+          <h2 class="contact__title">لنبقَ على تواصل</h2>
+          <p class="contact__desc">لديك فكرة أو مشروع أو كلمة طيبة؟ يسعدني أن أسمع منك.</p>
+
+          <button class="phone" type="button" id="phone-copy" data-number="+966578699472"
+                  aria-label="رقم الهاتف، اضغط لنسخه">
+            <span class="phone__icon" aria-hidden="true">☎</span>
+            <bdi dir="ltr" class="phone__number">+966 578 699 472</bdi>
+            <span class="phone__hint" id="phone-hint">اضغط لنسخ الرقم</span>
+          </button>
+
+          <div class="contact__links">
+            <a class="btn btn--light" href="tel:+966578699472">
+              <span aria-hidden="true">📞</span> اتصل الآن
+            </a>
+            <a class="btn btn--ghost" href="https://wa.me/966578699472" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">💬</span> راسلني على واتساب
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="year">2026</span> أسامه العولقي. جميع الحقوق محفوظة.</p>
+      <p class="site-footer__note">صُنع بحب للكلمة العربية ✦</p>
+    </div>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
